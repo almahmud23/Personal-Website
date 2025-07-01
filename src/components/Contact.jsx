@@ -50,7 +50,7 @@ function Contact() {
                     <a href="https://web.facebook.com/mdapon.smr" className="text-blue-500 hover:underline">Facebook</a>
                     <a href="https://www.youtube.com/@ar1ya9" className="text-blue-500 hover:underline">YouTube</a>
                     <a href="https://instagram.com" className="text-blue-500 hover:underline">Instagram</a>
-                    <a href="https://your-personal-site.com" className="text-blue-500 hover:underline">Personal Site</a>
+                    <a href="https://almahmud23.github.io/Personal-Website/" className="text-blue-500 hover:underline">Personal Site</a>
                 </div>
 
                 <div className="mb-6">
