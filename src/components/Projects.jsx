@@ -2,42 +2,41 @@ import React from 'react';
 
 function Projects() {
   return (
-    <section id="projects" className="h-screen bg-green-200 p-8">
-      <div className="container mx-auto h-full flex flex-col justify-center">
-        {/* Projects Section Title */}
-        <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-8 text-center">My Projects</h2>
+    <section id="projects" className="bg-green-100 py-20 px-4 md:px-10">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-4xl md:text-5xl font-bold text-blue-600 text-center mb-12">My Projects</h2>
 
-        {/* Ongoing Works Subsection */}
-        <div className="mb-8">
-          <h3 className="text-3xl font-bold text-gray-800 mb-4">Ongoing Works</h3>
-          <div className="grid md:grid-cols-2 gap-8">
+        {/* Ongoing Works */}
+        <div className="mb-12">
+          <h3 className="text-3xl font-bold text-gray-800 mb-6">Ongoing Works</h3>
+          <div className="grid gap-6 md:grid-cols-2">
             {/* Project 1 */}
-            <div className="bg-gray-100 shadow-lg p-6 rounded-lg transition-transform transform hover:scale-105">
+            <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-transform duration-300 hover:scale-[1.02]">
               <h4 className="text-2xl font-semibold mb-2">3D Animation for Bangla Sign Language</h4>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-3">
                 Developing a 3D animation system using CNN and Blender to convert Bangla speech into sign language.
               </p>
               <a
-                href="https://github.com/ar1ya9?tab=repositories" // Replace with actual repo link
-                className="text-blue-500 hover:underline"
+                href="https://github.com/ar1ya9?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
               >
                 View GitHub Repository
               </a>
             </div>
 
             {/* Project 2 */}
-            <div className="bg-gray-100 shadow-lg p-6 rounded-lg transition-transform transform hover:scale-105">
+            <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-transform duration-300 hover:scale-[1.02]">
               <h4 className="text-2xl font-semibold mb-2">Private University Application System</h4>
-              <p className="text-gray-600 mb-4">
-                Collaborating on a web-based application system to streamline admissions for private universities.
+              <p className="text-gray-600 mb-3">
+                Collaborating on a web-based system to streamline university admissions.
               </p>
               <a
-                href="https://github.com/ar1ya9?tab=repositories" // Replace with actual repo link
-                className="text-blue-500 hover:underline"
+                href="https://github.com/ar1ya9?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
               >
                 View GitHub Repository
               </a>
@@ -45,45 +44,45 @@ function Projects() {
           </div>
         </div>
 
-        {/* Complete Projects Subsection */}
+        {/* Complete Projects */}
         <div>
-          <h3 className="text-3xl font-bold text-gray-800 mb-4">Complete Projects</h3>
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Complete Project 1 */}
-            <div className="bg-gray-100 shadow-lg p-6 rounded-lg transition-transform transform hover:scale-105">
+          <h3 className="text-3xl font-bold text-gray-800 mb-6">Complete Projects</h3>
+          <div className="grid gap-6 md:grid-cols-2">
+            {/* Project 3 */}
+            <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-transform duration-300 hover:scale-[1.02]">
               <h4 className="text-2xl font-semibold mb-2">Personal Portfolio Website</h4>
-              <p className="text-gray-600 mb-4">
-                Built a personal website using React and Tailwind CSS to showcase my skills, projects, and academic background.
+              <p className="text-gray-600 mb-3">
+                Built a portfolio using React & Tailwind to showcase my work, skills, and background.
               </p>
               <a
-                href="https://your-portfolio-link.com" // Replace with your live link
-                className="text-blue-500 hover:underline"
+                href="https://almahmud23.github.io/Personal-Website/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="text-blue-500 hover:underline block mb-1"
               >
                 View Live Website
               </a>
               <a
-                href="https://github.com/ar1ya9?tab=repositories" // Replace with actual repo link
-                className="block text-blue-500 hover:underline"
+                href="https://github.com/ar1ya9?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
               >
                 View GitHub Repository
               </a>
             </div>
 
-            {/* Complete Project 2 */}
-            <div className="bg-gray-100 shadow-lg p-6 rounded-lg transition-transform transform hover:scale-105">
-              <h4 className="text-2xl font-semibold mb-2">CNN Model for Handwritten Bangla Letter Classification</h4>
-              <p className="text-gray-600 mb-4">
-                Implemented a machine learning model to classifying and Predict Bangla Letter from Bangla Script using Python and Scikit-learn.
+            {/* Project 4 */}
+            <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-transform duration-300 hover:scale-[1.02]">
+              <h4 className="text-2xl font-semibold mb-2">CNN for Bangla Letter Classification</h4>
+              <p className="text-gray-600 mb-3">
+                Developed a CNN-based model to classify handwritten Bangla letters using Python & Scikit-learn.
               </p>
               <a
-                href="https://github.com/ar1ya9?tab=repositories" // Replace with actual repo link
-                className="text-blue-500 hover:underline"
+                href="https://github.com/ar1ya9?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
               >
                 View GitHub Repository
               </a>
